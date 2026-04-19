@@ -13,7 +13,7 @@ build-frontend-vanilla:
 	cd frontend/Vanilla/  && pnpm install && pnpm run build
 
 .PHONY: build
-build: build-frontend-vanilla
+build: build-frontend-react
 	go mod tidy
 	go mod vendor
 	go build -mod=vendor -o ${DIST}/wterm
