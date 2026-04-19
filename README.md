@@ -8,6 +8,10 @@ A Web Terminal Based on wterm(https://github.com/vercel-labs/wterm)
 
 ---
 
+![](./images/htop.png)
+
+![](./images/fastfetch.png)
+
 ## 技术栈
 
 ### 前端
